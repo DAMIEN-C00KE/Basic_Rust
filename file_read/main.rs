@@ -18,7 +18,7 @@ fn main() {
 
     // Split string into words and count the number of "and"
     let count = contents.split_whitespace()
-    .filter(|&word| word == "and").count();
+    .filter(|&word| word.to_lowercase() == "and").count();
 
     // Print result
     println!("The word 'and' = {} times times in the contents of the file", count);
