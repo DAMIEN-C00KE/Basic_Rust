@@ -1,3 +1,2 @@
 # Basic_Rust
-A collection of small Rust programs that highlight some of Rusts strengths. 
-Useful for beginners to the Rust ecosystem.
+A collection of small Rust programs that highlight some of Rusts strengths. Mainly designed for budding new Rustaceans to enhance their knowledge of the ecosystem.
