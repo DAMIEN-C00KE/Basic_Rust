@@ -1,10 +1,10 @@
 // Salt and Hash a password using bcrypt
 // Example output: $2b$12$TZAnjfUbUctBQwIXiCjVY.Jo4dln4k4oO9totRGtVzLPe6LEJ/fsu
-// $bcrypt_id$cost$salt_and_hashed_password
 // - $2b$ is bcrypt algorithm version
 // - '12' is the cost factor (in this case, 2**12 iterations)
 // - The first 22 characters after the cost factor is the salt: TZAnjfUbUctBQwIXiCjVY.
 // - The remaining 31 characters is the hashed password: Jo4dln4k4oO9totRGtVzLPe6LEJ/fsu
+// $bcrypt_id$cost$salt_and_hashed_password
 
 extern crate bcrypt;
 
